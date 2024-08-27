@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+
+    <title>Encriptador Alura</title>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <a href="#" rel="">
+            <img src="./imagenes/logo.png" alt="Logo Alura" class="logo">
+        </a>    
+    </header>
+
+    <!-- Cuerpo -->
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Por favor ingrese su texto aqui"></textarea>
+            <div class="encriptador-aviso">
+                <p class="texto-aviso">·Solo letras minúsculas y sin acentos·</p>
+            </div>
+            <div class="encriptador-contenedor">
+                <button type="submit" class="btn-encriptar">Encriptar</button>
+                <button type="submit" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="tarjeta">
+           <div class="tarjeta-contenedor">
+                <img src="./imagenes/pngwing.com.png" alt="Imagen Muñeco" class="img-muñeco">
+                <p class="texto-uno">No se encontro ningun mensaje</p>
+                <p class="texto-dos">Por favor ingresa un texto</p>
+           </div>
+           <textarea type="mensaje" class="evaluar" readonly></textarea>
+           <button type="submit" class="btn-copiar">Copiar</button>
+         </section>  
+    </main>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p class="copyright">&copy; Encriptador desarrollado por Brian Caceres</p>
+    </footer>
+
+    <script src="./encriptador.js"></script>
+
+</body>
+</html>
